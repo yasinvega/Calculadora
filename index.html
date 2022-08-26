@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./estilos.css">
+
+        <title>CALCULADORA | YASIN VEGA</title>
+    </head>
+<body>  
+       
+        <div class="contenedor">    
+            
+            <div class="calculadora">
+                <h2>calculadora</h2>
+                <div class="pantalla">
+                    <input type="text" id="pantalla" placeholder="0" disabled>
+                </div>
+                <div class="botonera">
+                       <table>
+                            <tr>
+                                <td><button id="7">7</button></td>
+                                <td><button id="8">8</button></td>  
+                                <td><button id="9">9</button></td> 
+                                <td id="mult"><button style="background-color:#f3a012; color: white;" id="X">X</button></td> 
+                            </tr>
+                            <tr>
+                                <td><button id="4">4</button></td>
+                                <td><button id="5">5</button></td>  
+                                <td><button id="6">6</button></td> 
+                                <td id="res"><button style="background-color:#f3a012; color: white;" id="-">-</button></td> 
+                            </tr>
+                            <tr>
+                                <td><button id="1">1</button></td>
+                                <td><button id="2">2</button></td>  
+                                <td><button id="3">3</button></td> 
+                                <td id="sum"><button style="background-color:#f3a012; color: white;" id="+">+</button></td> 
+                            </tr>
+                            <tr>
+                                <td><button id="C">C</button></td>
+                                <td colspan="2"><button id="0">0</button></td>                                  
+                                <td id="div"><button style="background-color:#f3a012; color: white;" id="/">/</button></td> 
+                            </tr>
+                            <tr>
+                                <td colspan="4" id="igual"><button id="=">=</button></td> 
+                            </tr>
+                       </table>
+                </div>
+            </div>
+        </div>
+
+        <script src="./calculo.js"></script>
+</body>
+</html>

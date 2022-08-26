@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+body{
+    background: #283048;  
+    background: -webkit-linear-gradient(to left, #859398, #283048);  
+    background: linear-gradient(to left, #859398, #283048); 
+    
+}
+h2{
+    margin: auto;
+    text-align: center;
+    font-family: monospace;
+    color:transparent;
+    font-size: 30px;
+    text-transform: uppercase;
+    -webkit-text-stroke:transparent;
+}
+.contenedor{
+    width: 40vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+@media only screen and (max-width: 660px) {
+    .contenedor{
+        width: 100%;
+        height: 100%;
+    }
+    .calculadora{
+        width:60vw;
+        height: 80vh !important;
+    }
+    .botonera{
+        width: 10vw !important;
+        height: 20vh !important;
+        margin-top: 130px !important;
+}
+}
+.calculadora{
+    width: fit-content;
+    height: 65vh;
+    background-color: rgb(24, 23, 23);
+    border-radius: 5px 5px 20px 20px;
+    box-shadow: 20px 10px 10px black;
+}
+.pantalla{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #283048;  
+    background: -webkit-linear-gradient(to left, #859398, #283048);  
+    background: linear-gradient(to left, #859398, #283048); 
+    border-bottom: 1px solid rgb(24, 23, 23);
+    box-shadow: 10px 10px 20px;
+}
+#pantalla{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(96, 105, 93);
+    color: black;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px black;
+    text-align: right;
+    padding-right:10px;
+    font-size: 30px;
+    font-family: monospace;
+    outline: none;
+}
+
+.botonera{
+        width: 15vw;
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 50px;
+}
+.botonera button{
+    -webkit-text-stroke: rgb(251, 251, 251) 1px;
+    text-align: center;
+    font-family: monospace;
+    color:transparent;
+    font-size: 30px;
+    text-align: center;
+    background-color:transparent;
+    /* border: 4px solid rgb(24, 23, 23); */
+    padding: 11px;
+    border: none;
+    width: 50px;
+    /* box-shadow: 10px 5px 5px black; */
+}
+
+
+table,tr,td{
+    padding: 5px;
+    text-align: center;
+}
+
+#igual, #sum, #res, #mult, #div{
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to left, #F09819, #FF512F);  
+    background: linear-gradient(to left, #F09819, #FF512F); 
+}
+#sum button,
+#res button,
+#mult button,
+#div button{
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to left, #F09819, #FF512F);  
+    background: linear-gradient(to left, #F09819, #FF512F); 
+}
+#igual button{
+    background: #FF512F;  
+    background: -webkit-linear-gradient(to left, #F09819, #FF512F);  
+    background: linear-gradient(to left, #F09819, #FF512F); 
+    color: white;
+    -webkit-text-stroke: white 1px;
+    font-size: 50px;
+    width: 100%;
+    border-radius: 5px;
+}
